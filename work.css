@@ -1,0 +1,14 @@
+ 
+        #myTaskList {
+            background-color: darkkhaki;
+        }
+        #myTaskList li {
+            border: 1px solid khaki;
+            font-weight: 800;
+            font-size: 1.5em;
+        }
+        
+        input[type="button"] {
+            padding: 15px;
+            font-size: 1.5em
+        }

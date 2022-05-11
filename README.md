@@ -1,0 +1,2 @@
+Requirement Analysis/ Requirement Gathering :It includes client requirement ,it is process of        determining what the project exactly need to achieve,The goal of the project and what needs to do to make it happen ,It includes documents and userstories       As a user I want to solve 
+Design phase:Design phase is develpoment phase it involves ui and software design phase and it includes backend and front end frameworks and designs and architectures   we need 

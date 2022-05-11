@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="work.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+
+
+</head>
+
+<body>
+
+    <body>
+        <h1>Welcome to your personal Task List!</h1>
+        <br />
+
+        <span>You can add any task you like by writing it in the specified field and
+            then press "Add new task"</span><br /><br />
+
+        <input type="text" id="newTask" />
+        <input id="addNewTask" type="button" value="Add new Task" onclick="addNewTask()" />
+        <input type="button" value="Remove Last Task" onclick="removeLastTask()" />
+        <input type="button" value="Remove First Task" onclick="removeFirstTask()" />
+        <input type="button" value="print task list" onclick="getTasksAsArray()" />
+
+
+
+
+        <ul id="myTaskList" class="list"></ul>
+        
+        <hr />
+
+        <input type="color" placeholder="Color" id="colorPicker" />
+        <input type="button" value="Change task background" onclick="changeTaskBackgroundColor(event)" />
+
+        <hr />
+
+        <input type="button" value="Sort" onclick="bubblesort()" />
+        <script type="text/javascript" src="work.js"></script>
+    </body>
+
+</html>
